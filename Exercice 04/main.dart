@@ -18,3 +18,13 @@ class Livre extends Media {
   }
 }
 
+class Film extends Media {
+  final int dureeMinutes;
+
+  Film(String titre, this.dureeMinutes) : super(titre);
+
+  @override
+  void afficherType(){
+    print("Ceci est un film : $titre d'une durée de $dureeMinutes");
+  }
+}
