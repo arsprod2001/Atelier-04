@@ -33,4 +33,12 @@ void main(){
 
   livre1.afficherInfos();
   livre2.afficherInfos();
+
+  var roman1 = Roman("titre 1", "auteur 1", "Horeur");
+  var roman2 = Roman("titre 2", "auteur 2", "drame");
+
+  roman1.afficherInfos();
+  roman2.afficherInfos();
+
+  Livre.afficherTotalLivres();
 }
