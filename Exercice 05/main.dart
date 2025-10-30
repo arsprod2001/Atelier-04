@@ -30,3 +30,16 @@ class Rectangle extends Forme {
     return longueur * largeur;
   }
 }
+
+
+void main(){
+  var c1 = Cercle(5);
+  var r1 = Rectangle(7, 6);
+
+
+  c1.afficherMessage();
+  print("Aire du cercle : ${c1.calculerAire()}");
+
+  r1.afficherMessage();
+  print("Aire du Rectangle : ${r1.calculerAire()}");
+}
